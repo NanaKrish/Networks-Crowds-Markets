@@ -1,0 +1,40 @@
+example figure 8.3
+input: [('p0', 'i0', {'weight': 4}), ('p0', 'i1', {'weight': 12}), ('p0', 'i2', {'weight': 5}), ('p1', 'i0', {'weight': 7}), ('p1', 'i1', {'weight': 10}), ('p1', 'i2', {'weight': 9}), ('p2', 'i0', {'weight': 7}), ('p2', 'i1', {'weight': 7}), ('p2', 'i2', {'weight': 10})]
+Player p0's externality: 3
+Player p1's externality: 0
+Player p2's externality: 2
+[3, 0, 2]
+
+input:  [('p0', 'i0', {'weight': 7}), ('p0', 'i1', {'weight': 10}), ('p0', 'i2', {'weight': 3}), ('p0', 'i3', {'weight': 6}), ('p0', 'i4', {'weight': 1}), ('p1', 'i0', {'weight': 4}), ('p1', 'i1', {'weight': 8}), ('p1', 'i2', {'weight': 7}), ('p1', 'i3', {'weight': 1}), ('p1', 'i4', {'weight': 8}), ('p2', 'i0', {'weight': 7}), ('p2', 'i1', {'weight': 5}), ('p2', 'i2', {'weight': 10}), ('p2', 'i3', {'weight': 2}), ('p2', 'i4', {'weight': 2}), ('p3', 'i0', {'weight': 8}), ('p3', 'i1', {'weight': 3}), ('p3', 'i2', {'weight': 8}), ('p3', 'i3', {'weight': 7}), ('p3', 'i4', {'weight': 9}), ('p4', 'i0', {'weight': 1}), ('p4', 'i1', {'weight': 5}), ('p4', 'i2', {'weight': 5}), ('p4', 'i3', {'weight': 1}), ('p4', 'i4', {'weight': 3})]
+Player p0's externality: 0
+Player p1's externality: 2
+Player p2's externality: 4
+Player p3's externality: 1
+Player p4's externality: 4
+[0, 2, 4, 1, 4]
+
+input:  [('p0', 'i0', {'weight': 4}), ('p0', 'i1', {'weight': 4}), ('p0', 'i2', {'weight': 11}), ('p0', 'i3', {'weight': 13}), ('p0', 'i4', {'weight': 12}), ('p0', 'i5', {'weight': 16}), ('p0', 'i6', {'weight': 10}), ('p0', 'i7', {'weight': 3}), ('p0', 'i8', {'weight': 15}), ('p0', 'i9', {'weight': 18}), ('p1', 'i0', {'weight': 9}), ('p1', 'i1', {'weight': 13}), ('p1', 'i2', {'weight': 19}), ('p1', 'i3', {'weight': 2}), ('p1', 'i4', {'weight': 2}), ('p1', 'i5', {'weight': 9}), ('p1', 'i6', {'weight': 11}), ('p1', 'i7', {'weight': 9}), ('p1', 'i8', {'weight': 9}), ('p1', 'i9', {'weight': 13}), ('p2', 'i0', {'weight': 9}), ('p2', 'i1', {'weight': 8}), ('p2', 'i2', {'weight': 2}), ('p2', 'i3', {'weight': 13}), ('p2', 'i4', {'weight': 20}), ('p2', 'i5', {'weight': 9}), ('p2', 'i6', {'weight': 2}), ('p2', 'i7', {'weight': 2}), ('p2', 'i8', {'weight': 9}), ('p2', 'i9', {'weight': 4}), ('p3', 'i0', {'weight': 7}), ('p3', 'i1', {'weight': 15}), ('p3', 'i2', {'weight': 6}), ('p3', 'i3', {'weight': 17}), ('p3', 'i4', {'weight': 10}), ('p3', 'i5', {'weight': 11}), ('p3', 'i6', {'weight': 14}), ('p3', 'i7', {'weight': 5}), ('p3', 'i8', {'weight': 10}), ('p3', 'i9', {'weight': 9}), ('p4', 'i0', {'weight': 13}), ('p4', 'i1', {'weight': 16}), ('p4', 'i2', {'weight': 5}), ('p4', 'i3', {'weight': 4}), ('p4', 'i4', {'weight': 8}), ('p4', 'i5', {'weight': 14}), ('p4', 'i6', {'weight': 4}), ('p4', 'i7', {'weight': 9}), ('p4', 'i8', {'weight': 17}), ('p4', 'i9', {'weight': 5}), ('p5', 'i0', {'weight': 2}), ('p5', 'i1', {'weight': 8}), ('p5', 'i2', {'weight': 8}), ('p5', 'i3', {'weight': 10}), ('p5', 'i4', {'weight': 3}), ('p5', 'i5', {'weight': 19}), ('p5', 'i6', {'weight': 2}), ('p5', 'i7', {'weight': 5}), ('p5', 'i8', {'weight': 14}), ('p5', 'i9', {'weight': 10}), ('p6', 'i0', {'weight': 18}), ('p6', 'i1', {'weight': 19}), ('p6', 'i2', {'weight': 9}), ('p6', 'i3', {'weight': 19}), ('p6', 'i4', {'weight': 19}), ('p6', 'i5', {'weight': 8}), ('p6', 'i6', {'weight': 8}), ('p6', 'i7', {'weight': 7}), ('p6', 'i8', {'weight': 7}), ('p6', 'i9', {'weight': 9}), ('p7', 'i0', {'weight': 10}), ('p7', 'i1', {'weight': 7}), ('p7', 'i2', {'weight': 8}), ('p7', 'i3', {'weight': 14}), ('p7', 'i4', {'weight': 11}), ('p7', 'i5', {'weight': 14}), ('p7', 'i6', {'weight': 14}), ('p7', 'i7', {'weight': 9}), ('p7', 'i8', {'weight': 10}), ('p7', 'i9', {'weight': 15}), ('p8', 'i0', {'weight': 10}), ('p8', 'i1', {'weight': 18}), ('p8', 'i2', {'weight': 17}), ('p8', 'i3', {'weight': 20}), ('p8', 'i4', {'weight': 20}), ('p8', 'i5', {'weight': 19}), ('p8', 'i6', {'weight': 6}), ('p8', 'i7', {'weight': 11}), ('p8', 'i8', {'weight': 4}), ('p8', 'i9', {'weight': 10}), ('p9', 'i0', {'weight': 13}), ('p9', 'i1', {'weight': 17}), ('p9', 'i2', {'weight': 4}), ('p9', 'i3', {'weight': 6}), ('p9', 'i4', {'weight': 15}), ('p9', 'i5', {'weight': 3}), ('p9', 'i6', {'weight': 17}), ('p9', 'i7', {'weight': 4}), ('p9', 'i8', {'weight': 19}), ('p9', 'i9', {'weight': 2})]
+Player p0's externality: 6
+Player p1's externality: 5
+Player p2's externality: 8
+Player p3's externality: 5
+Player p4's externality: 6
+Player p5's externality: 7
+Player p6's externality: 3
+Player p7's externality: 0
+Player p8's externality: 8
+Player p9's externality: 7
+[6, 5, 8, 5, 6, 7, 3, 0, 8, 7]
+
+input:  [('p0', 'i0', {'weight': 15}), ('p0', 'i1', {'weight': 4}), ('p0', 'i2', {'weight': 10}), ('p0', 'i3', {'weight': 7}), ('p0', 'i4', {'weight': 8}), ('p0', 'i5', {'weight': 17}), ('p0', 'i6', {'weight': 20}), ('p0', 'i7', {'weight': 3}), ('p0', 'i8', {'weight': 10}), ('p0', 'i9', {'weight': 17}), ('p1', 'i0', {'weight': 4}), ('p1', 'i1', {'weight': 6}), ('p1', 'i2', {'weight': 17}), ('p1', 'i3', {'weight': 4}), ('p1', 'i4', {'weight': 17}), ('p1', 'i5', {'weight': 19}), ('p1', 'i6', {'weight': 8}), ('p1', 'i7', {'weight': 11}), ('p1', 'i8', {'weight': 6}), ('p1', 'i9', {'weight': 9}), ('p2', 'i0', {'weight': 13}), ('p2', 'i1', {'weight': 14}), ('p2', 'i2', {'weight': 18}), ('p2', 'i3', {'weight': 19}), ('p2', 'i4', {'weight': 17}), ('p2', 'i5', {'weight': 4}), ('p2', 'i6', {'weight': 9}), ('p2', 'i7', {'weight': 13}), ('p2', 'i8', {'weight': 14}), ('p2', 'i9', {'weight': 13}), ('p3', 'i0', {'weight': 17}), ('p3', 'i1', {'weight': 5}), ('p3', 'i2', {'weight': 14}), ('p3', 'i3', {'weight': 7}), ('p3', 'i4', {'weight': 4}), ('p3', 'i5', {'weight': 19}), ('p3', 'i6', {'weight': 5}), ('p3', 'i7', {'weight': 2}), ('p3', 'i8', {'weight': 14}), ('p3', 'i9', {'weight': 6}), ('p4', 'i0', {'weight': 14}), ('p4', 'i1', {'weight': 4}), ('p4', 'i2', {'weight': 19}), ('p4', 'i3', {'weight': 17}), ('p4', 'i4', {'weight': 6}), ('p4', 'i5', {'weight': 9}), ('p4', 'i6', {'weight': 15}), ('p4', 'i7', {'weight': 8}), ('p4', 'i8', {'weight': 12}), ('p4', 'i9', {'weight': 11}), ('p5', 'i0', {'weight': 12}), ('p5', 'i1', {'weight': 16}), ('p5', 'i2', {'weight': 2}), ('p5', 'i3', {'weight': 17}), ('p5', 'i4', {'weight': 15}), ('p5', 'i5', {'weight': 8}), ('p5', 'i6', {'weight': 13}), ('p5', 'i7', {'weight': 6}), ('p5', 'i8', {'weight': 3}), ('p5', 'i9', {'weight': 20}), ('p6', 'i0', {'weight': 17}), ('p6', 'i1', {'weight': 14}), ('p6', 'i2', {'weight': 12}), ('p6', 'i3', {'weight': 13}), ('p6', 'i4', {'weight': 2}), ('p6', 'i5', {'weight': 3}), ('p6', 'i6', {'weight': 7}), ('p6', 'i7', {'weight': 17}), ('p6', 'i8', {'weight': 19}), ('p6', 'i9', {'weight': 20}), ('p7', 'i0', {'weight': 2}), ('p7', 'i1', {'weight': 18}), ('p7', 'i2', {'weight': 4}), ('p7', 'i3', {'weight': 5}), ('p7', 'i4', {'weight': 18}), ('p7', 'i5', {'weight': 16}), ('p7', 'i6', {'weight': 3}), ('p7', 'i7', {'weight': 14}), ('p7', 'i8', {'weight': 4}), ('p7', 'i9', {'weight': 17}), ('p8', 'i0', {'weight': 3}), ('p8', 'i1', {'weight': 8}), ('p8', 'i2', {'weight': 20}), ('p8', 'i3', {'weight': 2}), ('p8', 'i4', {'weight': 19}), ('p8', 'i5', {'weight': 8}), ('p8', 'i6', {'weight': 6}), ('p8', 'i7', {'weight': 11}), ('p8', 'i8', {'weight': 7}), ('p8', 'i9', {'weight': 17}), ('p9', 'i0', {'weight': 19}), ('p9', 'i1', {'weight': 9}), ('p9', 'i2', {'weight': 8}), ('p9', 'i3', {'weight': 12}), ('p9', 'i4', {'weight': 6}), ('p9', 'i5', {'weight': 16}), ('p9', 'i6', {'weight': 12}), ('p9', 'i7', {'weight': 20}), ('p9', 'i8', {'weight': 18}), ('p9', 'i9', {'weight': 8})]
+Player p0's externality: 0
+Player p1's externality: 2
+Player p2's externality: 0
+Player p3's externality: 0
+Player p4's externality: 1
+Player p5's externality: 1
+Player p6's externality: 0
+Player p7's externality: 0
+Player p8's externality: 0
+Player p9's externality: 0
+[0, 2, 0, 0, 1, 1, 0, 0, 0, 0]
